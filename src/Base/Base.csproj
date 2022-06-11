@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<ItemGroup>
+		<Using Include="RB.Submodules.Base.Either" />
+		<Using Include="RB.Submodules.Base.Either.Unit" Static="true" />
+	</ItemGroup>
+	
 </Project>
